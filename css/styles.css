@@ -259,9 +259,12 @@ h4 {
     .seccion-inferior .blog {
         flex-basis: 60%;
     }
-    .seccion-inferior .testimoniales {
-        flex-basis: calc(40% - 2rem);
+    .seccion-inferior .blog {
+        flex-basis: 60%;
+    }.seccion-inferior .blog {
+        flex-basis: 60%;
     }
+    
 }
 .entrada-blog {
     margin-bottom: 2rem;
