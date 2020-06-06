@@ -215,21 +215,7 @@ h4 {
     color: #71B100;
     font-weight: 700;
 }
-.iconos-caracteristicas {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex: 1;
-    max-width: 500px;
-}
-.iconos-caracteristicas li {
-    /* flex: 1; */
-    display: flex;
-}
-.iconos-caracteristicas li img {
-    margin-right: 2rem;
-}
+ 
 .ver-todas {
     display: flex;
     justify-content: flex-end;
