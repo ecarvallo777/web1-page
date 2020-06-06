@@ -188,7 +188,7 @@ h4 {
 @media (min-width: 768px) {
     .contenedor-anuncios{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-basis: 50%;
         
         
@@ -220,22 +220,6 @@ h4 {
     justify-content: flex-end;
 }
 
-/** Contacto Home **/
-.imagen-contacto {
-    background-image: url(../img/encuentra.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 40rem;
-    display: flex;
-    align-items: center;
-}
-.contenido-contacto {
-    flex: 0 0 95%;
-    color: #ffffff;
-}
-.contenido-contacto p {
-    font-size: 1.8rem;
-}
 
 /** Sección Inferior **/
 @media (min-width: 768px) {
@@ -289,31 +273,7 @@ h4 {
 .texto-entrada span {
     color: #E08709;
 }
-/*** Testimoniales **/
-.testimonial {
-    background-color: #71B100;
-    font-size: 1.5rem;
-    padding: 2rem;
-    color: #ffffff;
-    border-radius: 2rem;
-}
-.testimonial  p {
-    text-align: right;
-}
-.testimonial blockquote::before {
-    content: '';
-    background-image: url(../img/comilla.svg);
-    width: 4rem;
-    height: 4rem;
-    position: absolute;
-    left: -2rem;
-}
 
-.testimonial blockquote {
-    position: relative;
-    padding-left: 5rem;
-    font-weight: 300;
-}
 /** Footer **/
 .site-footer {
     background-color: #333333;
