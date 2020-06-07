@@ -47,6 +47,7 @@ h4 {
 .d-block {
     display: block!important;
 }
+
 .contenido-centrado {
     max-width: 800px;
 }
@@ -189,7 +190,7 @@ h4 {
 @media (min-width: 768px) {
     .contenedor-anuncios{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         flex-basis: 50%;
         
         
