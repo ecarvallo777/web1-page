@@ -189,7 +189,7 @@ h4 {
 @media (min-width: 768px) {
     .contenedor-anuncios{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         flex-basis: 50%;
         
         
